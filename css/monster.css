@@ -1,0 +1,194 @@
+
+a:link{
+    color:rgb(5, 179, 0);
+    background-color:rgba(8, 8, 8, 0.63);
+    padding:1%;
+    margin:1%;
+    float:right;
+    border:15px solid rgba(23, 19, 45, 0.67);
+    text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(5, 179, 0);
+    border:10px rgba(5, 16, 26, 0.4);
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #fff;
+}
+
+/* selected link */
+a:active {
+    color: rgb(5, 179, 0);
+}
+
+.title{
+    width:100%;
+    height:130px;
+    text-align:center;
+    padding:1%;
+    color:#fff;
+    font-size:2em;
+    background-color:rgba(8, 8, 8, 0.63);
+    border:15px solid rgba(5, 16, 26, 0.4);
+}
+
+.clearfix::after {
+  content: ' ';
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+body{
+    background-image:url('../img/background4.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height:100vh;
+
+    }
+
+.flexbox{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.flex-title{
+    width:100%;
+    margin:2%;
+    text-align:center;
+}
+
+.box{
+    width:42%;
+    min-width:400px;
+    margin:2%;
+    background-color:rgba(70, 0, 0, 0.63);
+    color:rgb(5, 179, 0);
+    border:15px inset rgba(79, 0, 0, 0.67);
+    color:#000;
+}
+
+.box.winner {
+    background-color:rgba(23, 19, 45, 0.67);
+    border:15px solid rgba(8, 8, 8, 0.63);
+    color:#fff;
+    min-width:400px;
+}
+
+.player-img{
+    float:left;
+    height:300px;
+    width:250px;
+    margin:2%;
+    border:15px inset rgba(8, 8, 8, 0.63);
+
+}
+
+.player-img img{
+    width:100%;
+    height:100%;
+}
+
+.player-attributes{
+    float:left;
+    width:50%;
+    padding:5%;
+    margin:3%;
+    background-color:rgba(5, 16, 26, 0.4);
+    border:10px solid rgba(8, 8, 8, 0.63);
+    color:rgb(5, 179, 0);
+    font-size:1.2em;
+}
+
+.player-description{
+    float:left;
+    width:60%;
+    background-color:rgb(41, 107, 0);
+    color:rgb(5, 179, 0);
+
+}
+
+.battle{
+    float:left;
+    height:300px;
+    width:80%;
+    margin-left:10%;
+    margin-top:3%;
+    background-color:rgba(8, 8, 8, 0.63);
+    border:15px solid rgba(5, 16, 26, 0.4);
+    color:#fff;
+    text-align:center;
+    padding:1%;
+}
+
+form{
+    width:100%;
+    padding:1%;
+    text-align:center;
+}
+
+form input{
+    width:300px;
+    height:40px;
+    background-color:rgba(0, 53, 102, 0.25);
+    color:rgb(5, 179, 0);
+    border:3px inset rgba(8, 8, 8, 0.63);
+    margin:10px;
+}
+
+form select{
+    background-color:rgba(0, 53, 102, 0.25);
+    color:rgb(5, 179, 0);
+    margin:10px;
+}
+
+button{
+    clear:both;
+    text-align:center;
+    background-color:rgba(0, 53, 102, 0.25);
+    color:rgb(5, 179, 0);
+    width:150px;
+    font-size:1.3em;
+}
+
+table{
+    width:98%;
+    height:100%;
+    margin:1%;
+    background-color:rgba(8, 8, 8, 0.63);
+    border:15px solid rgba(5, 16, 26, 0.4);
+    color:rgb(5, 179, 0);
+    font-size:2em;
+    text-align:center;
+
+}
+thead{
+    background-color: rgba(8, 8, 8, 0.63);
+}
+
+th{
+    height:100px;
+}
+
+td{
+    height:60px;
+}
+
+tr:nth-child(even){
+    background-color:rgba(0, 53, 102, 0.25);
+}

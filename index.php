@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <link href="css/monster.css" rel="stylesheet" type="text/css">
 
 <?php
